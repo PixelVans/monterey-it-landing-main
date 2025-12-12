@@ -1,0 +1,84 @@
+import { MessageSquare, Settings, CreditCard } from "lucide-react";
+
+const steps = [
+  {
+    number: "01",
+    icon: MessageSquare,
+    title: "Reach Out With Your Issue",
+    description: "Call, text, or submit a support request with a quick description of your IT problem. We respond fast.",
+  },
+  {
+    number: "02",
+    icon: Settings,
+    title: "On-Site or Remote Troubleshooting",
+    description: "Fast diagnostics and same-day fixes whenever possible. We come to you or connect remotely—whichever works best.",
+  },
+  {
+    number: "03",
+    icon: CreditCard,
+    title: "Fair, Transparent Pricing",
+    description: "Only pay for the time required. No hidden fees, no surprise charges. You'll always know the cost upfront.",
+  },
+];
+
+const ProcessSection = () => {
+  return (
+    <section id="process" className="py-24 lg:py-32 bg-background relative overflow-hidden">
+      {/* Background pattern */}
+      <div className="absolute inset-0 circuit-pattern opacity-30" />
+      
+      {/* Gradient orbs */}
+      <div className="absolute top-1/4 left-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-1/4 right-0 w-64 h-64 bg-accent/10 rounded-full blur-3xl" />
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* Section Header */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent text-sm font-medium mb-6">
+            How It Works
+          </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            How Our Service Works
+          </h2>
+          <p className="text-lg text-muted-foreground">
+            Our Clear & Simple Three-Step Process
+          </p>
+        </div>
+
+        {/* Steps */}
+        <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
+          {steps.map((step, index) => (
+            <div key={step.number} className="relative">
+              {/* Connector line (hidden on last item and mobile) */}
+              {index < steps.length - 1 && (
+                <div className="hidden md:block absolute top-16 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary/30 to-accent/30" />
+              )}
+              
+              <div className="relative bg-card rounded-3xl p-8 shadow-soft border border-border/50 hover-lift text-center">
+                {/* Large number */}
+                <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-lg">
+                  <span className="text-primary-foreground font-bold text-lg">{step.number.slice(1)}</span>
+                </div>
+                
+                {/* Icon */}
+                <div className="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center mt-4 mb-6">
+                  <step.icon className="w-8 h-8 text-primary" />
+                </div>
+                
+                {/* Content */}
+                <h3 className="text-xl font-bold text-foreground mb-3">
+                  {step.title}
+                </h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  {step.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ProcessSection;
