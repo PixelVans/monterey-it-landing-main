@@ -33,12 +33,15 @@ const ServiceAreaSection = () => {
           {/* Map */}
           <div className="relative h-[480px]">
             <iframe
-              title="Monterey Peninsula Service Area Map"
-              src="https://www.google.com/maps?q=Monterey+Peninsula+California&z=10&output=embed"
-              className="w-full h-full grayscale-[10%] contrast-[1.05]"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+                title="Monterey Peninsula Service Area Map"
+                src="https://www.google.com/maps?ll=36.6002,-121.8947&z=10&output=embed"
+                width="100%"
+                height="480"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                />
+
 
             {/* Overlay badge */}
             <div className="absolute top-6 left-6 bg-background/90 backdrop-blur-md border border-border/50 rounded-xl px-4 py-2 flex items-center gap-2 shadow-soft">
