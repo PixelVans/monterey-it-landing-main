@@ -5,6 +5,7 @@ import ServicesSection from "@/components/ServicesSection";
 import TrustSection from "@/components/TrustSection";
 import ProcessSection from "@/components/ProcessSection";
 import Footer from "@/components/Footer";
+import ServiceAreaSection from "@/components/ServiceArea";
 
 const Index = () => {
   return (
@@ -14,8 +15,10 @@ const Index = () => {
         <HeroSection />
         <WhyChooseSection />
         <ServicesSection />
+        <ServiceAreaSection />
         <TrustSection />
         <ProcessSection />
+        
       </main>
       <Footer />
     </div>
