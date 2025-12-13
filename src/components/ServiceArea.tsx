@@ -31,7 +31,7 @@ const ServiceAreaSection = () => {
         {/* Map Card */}
         <div className="relative group bg-card rounded-3xl border border-border/50 shadow-soft overflow-hidden hover-lift">
           {/* Map */}
-          <div className="relative h-[480px]">
+          <div className="relative h-[300px] sm:h-[480px]">
             <iframe
                 title="Monterey Peninsula Service Area Map"
                 src="https://www.google.com/maps?ll=36.6002,-121.8947&z=10&output=embed"
@@ -44,9 +44,9 @@ const ServiceAreaSection = () => {
 
 
             {/* Overlay badge */}
-            <div className="absolute top-6 left-6 bg-background/90 backdrop-blur-md border border-border/50 rounded-xl px-4 py-2 flex items-center gap-2 shadow-soft">
-              <MapPin className="w-4 h-4 text-primary" />
-              <span className="text-sm font-medium text-foreground">
+            <div className="absolute hidden sm:flex top-12 left-6 bg-background/90 backdrop-blur-md border border-border/50 rounded-xl px-4 py-2  items-center gap-2 shadow-soft">
+              <MapPin className="w-4 h-4 text-red-500 font-bold" />
+              <span className="text-sm  font-medium text-foreground">
                 On-Site Coverage Area
               </span>
             </div>

@@ -19,7 +19,7 @@ const HeroSection = () => {
           <div className="text-center lg:text-left">
             
             
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
+            <h1 className="text-4xl sm:text-5xl mt-10 sm:mt-0 lg:text-6xl font-bold text-foreground leading-tight mb-6">
               Managed IT Support For{" "}
               <span className="gradient-text">Monterey Bay</span>{" "}
               Businesses
@@ -44,15 +44,15 @@ const HeroSection = () => {
 
           {/* Trust Indicators */}
      
-        <div className="flex flex-wrap items-center justify-center lg:justify-start gap-10 mt-7 pt-10 border-t border-slate-300">
+        <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 sm:gap-10 mt-7 pt-10 border-t border-slate-300">
 
           {/* Item */}
           <div className="flex flex-col">
             <div className="flex items-center gap-2">
               <Users className="w-4 h-4 text-orange-600" />
-              <span className="text-lg font-bold text-foreground">500+</span>
+              <span className="text-sm sm:text-lg font-bold text-foreground">500+</span>
             </div>
-            <span className="text-sm text-muted-foreground">Clients Served</span>
+            <span className="text-xs sm:text-lg text-muted-foreground">Clients Served</span>
           </div>
 
           <div className="w-px h-8 bg-border hidden md:block" />
@@ -61,10 +61,10 @@ const HeroSection = () => {
           <div className="flex flex-col">
             <div className="flex items-center gap-2">
               <Timer className="w-4 h-4 text-orange-600" />
-              <span className="text-lg font-bold text-foreground">Under 20min</span>
+              <span className="text-sm sm:text-lg font-bold text-foreground"><span className="hidden">Under</span> 20min</span>
 
             </div>
-            <span className="text-sm text-muted-foreground">Response Time</span>
+            <span className="text-xs sm:text-sm text-muted-foreground">Response Time</span>
           </div>
 
           <div className="w-px h-8 bg-border hidden md:block" />
@@ -73,9 +73,9 @@ const HeroSection = () => {
           <div className="flex flex-col">
             <div className="flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-orange-600" />
-              <span className="text-lg font-bold text-foreground">98%</span>
+              <span className="text-sm sm:text-lg font-bold text-foreground">98%</span>
             </div>
-            <span className="text-sm text-muted-foreground">Satisfaction</span>
+            <span className="text-xs sm:text-sm text-muted-foreground">Satisfaction</span>
           </div>
 
         </div>
@@ -87,7 +87,7 @@ const HeroSection = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="relative animate-slide-in-right hidden lg:block">
+          <div className="relative animate-slide-in-right">
             <div className="inline-flex w-full border-2 border-blue-300 items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
               Serving Monterey County Since 2010
@@ -110,7 +110,7 @@ const HeroSection = () => {
               </div>
 
               {/* Floating Card */}
-              <div className="absolute -bottom-6 -left-6 bg-card rounded-2xl shadow-card p-4 border border-border/50 animate-float">
+              <div className="absolute -bottom-6 -left-6 bg-card rounded-2xl shadow-card p-4 border-2 border-slate-400 animate-float">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center">
                     <span className="text-accent text-xl">✓</span>
