@@ -87,7 +87,8 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-background/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-background/50">
-          <p>© 2024 Monterey Bay IT Services. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Monterey Bay IT Services. All rights reserved.</p>
+
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
