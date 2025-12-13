@@ -2,7 +2,10 @@ import { MapPin } from "lucide-react";
 
 const ServiceAreaSection = () => {
   return (
-    <section id="service-area" className="py-24 lg:py-32 bg-background relative overflow-hidden">
+    <section
+      id="service-area"
+      className="py-20 lg:py-32 bg-background relative overflow-hidden"
+    >
       {/* Subtle pattern */}
       <div className="absolute inset-0 circuit-pattern opacity-30" />
 
@@ -20,25 +23,34 @@ const ServiceAreaSection = () => {
           </h2>
 
           <p className="text-lg text-muted-foreground">
-            We provide fast, reliable on-site and remote IT support across Monterey,
-            Seaside, Marina, Pacific Grove, Carmel, and surrounding areas.
+            Fast, reliable on-site and remote IT support across Monterey,
+            Seaside, Marina, Pacific Grove, Carmel, and nearby areas.
           </p>
         </div>
 
         {/* Map Card */}
-        <div className="relative bg-card rounded-2xl shadow-soft border border-border/50 overflow-hidden hover-lift">
-          <iframe
-            title="Monterey Peninsula Service Area Map"
-            src="https://www.google.com/maps?q=Monterey+Peninsula+California&z=10&output=embed"
-            width="100%"
-            height="480"
-            style={{ border: 0 }}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+        <div className="relative group bg-card rounded-3xl border border-border/50 shadow-soft overflow-hidden hover-lift">
+          {/* Map */}
+          <div className="relative h-[480px]">
+            <iframe
+              title="Monterey Peninsula Service Area Map"
+              src="https://www.google.com/maps?q=Monterey+Peninsula+California&z=10&output=embed"
+              className="w-full h-full grayscale-[10%] contrast-[1.05]"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
 
-          {/* Soft overlay gradient */}
-          <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/5 to-accent/5 pointer-events-none" />
+            {/* Overlay badge */}
+            <div className="absolute top-6 left-6 bg-background/90 backdrop-blur-md border border-border/50 rounded-xl px-4 py-2 flex items-center gap-2 shadow-soft">
+              <MapPin className="w-4 h-4 text-primary" />
+              <span className="text-sm font-medium text-foreground">
+                On-Site Coverage Area
+              </span>
+            </div>
+
+            {/* Gradient overlay */}
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          </div>
         </div>
       </div>
     </section>

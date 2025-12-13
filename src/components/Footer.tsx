@@ -21,8 +21,8 @@ const Footer = () => {
                 <Phone className="w-5 h-5" />
                 Call (831) 555-MBITS
               </Button>
-              <Button variant="heroOutline" size="xl" className="border-background/30 text-background hover:bg-background/10 hover:border-background/50">
-                Get a Free Quote
+              <Button variant="heroOutline" size="xl" className="border-background/30 text-slate-900 hover:bg-background/10 hover:border-background/50 hover:text-accent-foreground">
+                Start Your Service Request
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </div>
