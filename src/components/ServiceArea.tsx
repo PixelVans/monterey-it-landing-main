@@ -23,8 +23,7 @@ const ServiceAreaSection = () => {
           </h2>
 
           <p className="text-lg text-muted-foreground">
-            Fast, reliable on-site and remote IT support across Monterey,
-            Seaside, Marina, Pacific Grove, Carmel, and nearby areas.
+            Proactive IT management and on-site expertise for businesses across Monterey, Seaside, Marina, Pacific Grove, Carmel, and surrounding areas
           </p>
         </div>
 

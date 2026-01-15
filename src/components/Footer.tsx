@@ -45,7 +45,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-background/60 max-w-md mb-6">
-              Professional IT support for Monterey Bay businesses. Fast, reliable, and always transparent. Your success is our priority.
+              Managed IT services for Monterey Bay businesses. Proactive, reliable, and transparently priced
             </p>
             <div className="flex items-center gap-6 text-sm text-background/60">
               <a href="#" className="hover:text-accent transition-colors">Facebook</a>

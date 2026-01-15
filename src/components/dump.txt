@@ -1,0 +1,155 @@
+3. Services Sentence: Remove break-fix language
+
+Current
+
+From remote or on-site computer repairs to full managed IT solutions ...
+
+Replace with
+
+From network and device management to security, monitoring, and long-term IT planning, we take
+ownership of your technology so it works quietly in the background.
+
+This directly communicates:
+· proactive
+· ongoing responsibility
+· less interruption-based
+
+
+4. Primary CTA: De-emphasize urgency, emphasize assessment
+Current buttons
+. Call Now
+
+Get Help Now
+
+Replace with
+· Request an IT Assessment
+. Talk With an IT Advisor
+
+You can still keep a phone number visible, but these CTAs reinforce consultative entry, not emergency
+support.
+
+for this part,
+
+
+6. Metrics Row: Adjust framing
+
+Current
+. 20min Response Time
+. Issue-centric metrics
+
+Replace with
+· 500+ Businesses Managed
+99.9% Uptime Target
+. Long-Term Client Retention (or Avg. Client Tenure)
+If you keep response time at all, demote it visually.
+
+7. Optional Tagline (Small but Powerful)
+Under the main headline, add a subtle line:
+Not a helpdesk. A long-term IT partner.
+
+This directly addresses the positioning problem without ambiguity.
+
+
+
+
+
+
+
+1. Section Intro Copy (Biggest Problem Area)
+
+Current
+
+delivers dependable computer repair and managed IT support
+Whether you need immediate help or want to prevent problems ...
+
+This sentence alone resets the visitor's brain to:
+· break/fix
+· emergency-driven
+· ticket-based IT
+
+Replace with
+
+delivers proactive IT management and technology systems designed to support small and mid-sized
+businesses. We focus on prevention, stability, and long-term reliability - not just fixing problems after
+they occur.
+
+This keeps:
+· small business focus
+. local trust
+while removing:
+·"computer repair"
+. "immediate help" framing
+
+
+2. Card 1: "Fast, Local Support" > Reframe to Responsiveness Without Helpdesk Vibe
+
+Current title
+
+Fast, Local Support
+
+Replace with
+
+Local, Responsive IT Management
+
+Current body
+
+On-site or remote help with response times under 20 minutes ...
+
+This is pure helpdesk language.
+
+Replace body with
+
+Proactive monitoring and local expertise when needed. Our team is based in Monterey County and
+stays close to your systems, not just your support tickets.
+
+You still imply responsiveness, but without "call us when broken."
+
+3. Card 2: Pricing Is Fine - Minor Framing Adjustment
+This card is mostly okay.
+
+Current title
+
+Transparent, Upfront Pricing
+
+Keep it.
+
+Body tweak
+Replace:
+
+honest diagnostics
+
+With:
+
+clear scopes and defined service coverage
+
+"Diagnostics" implies break/fix. "Scope" implies managed services.
+
+
+4. Card 3: "Small-Business Focused" > Strong, Keep but Sharpen
+This one is directionally correct.
+
+Current title
+
+Small-Business Focused
+
+Optional upgrade
+Built for Small & Growing Businesses
+
+Body tweak
+Replace:
+
+Tailored IT solutions without enterprise-level pricing.
+
+With:
+
+Right-sized IT systems and management without unnecessary enterprise complexity or cost.
+
+This reinforces intentional simplicity, not cheapness.
+
+
+5. Optional Micro-Tag Above Cards (Very Effective)
+Add a single line above the three cards:
+
+Designed for businesses that want IT handled, not constantly dealt with.
+
+This sentence does a lot of positioning work quietly.

@@ -19,68 +19,75 @@ const HeroSection = () => {
           <div className="text-center lg:text-left">
             
             
-            <h1 className="text-4xl sm:text-5xl mt-10 sm:mt-0 lg:text-6xl font-bold text-foreground leading-tight mb-6">
-              Managed IT Support For{" "}
+            <h1 className="text-4xl sm:text-5xl mt-10 sm:mt-0 lg:text-5xl font-bold text-foreground leading-tight mb-6">
+              Technology Systems & IT Management
+                For {" "}
               <span className="gradient-text">Monterey Bay</span>{" "}
               Businesses
             </h1>
             
-            <p className="text-sm sm:text-lg text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0">
-              Monterey Bay IT Services helps local businesses stay secure, efficient, and productive with fast, reliable tech support.
-               From remote or on-site computer repairs to full managed IT solutions, we handle your biggest technology headaches so you can stay 
-               focused on running your business
-            </p>
+           <p className="text-sm sm:text-lg text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0">
+          Monterey Bay IT Services helps local businesses design, manage, and maintain reliable technology systems that support long-term growth, security, and operational continuity.
+          From network and device management to security, monitoring, and long-term IT planning, we take ownership of your technology so it works quietly in the background.
+        </p>
+
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl">
-                <Phone className="w-5 h-5" />
-                Call Now
-              </Button>
-              <Button variant="heroOutline" size="xl">
-                Get Help Now
-                <ArrowRight className="w-5 h-5" />
-              </Button>
-            </div>
+            
+      <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+        <Button variant="hero" size="xl">
+          Request an IT Assessment
+        </Button>
 
-          {/* Trust Indicators */}
-     
-        <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 sm:gap-10 mt-7 pt-10 border-t border-slate-300">
+        <Button variant="heroOutline" size="xl">
+          Talk With an IT Advisor
+          <ArrowRight className="w-5 h-5" />
+        </Button>
+      </div>
 
-          {/* Item */}
-          <div className="flex flex-col">
-            <div className="flex items-center gap-2">
-              <Users className="w-4 h-4 text-orange-600" />
-              <span className="text-sm sm:text-lg font-bold text-foreground">500+</span>
-            </div>
-            <span className="text-xs sm:text-lg text-muted-foreground">Clients Served</span>
-          </div>
 
-          <div className="w-px h-8 bg-border hidden md:block" />
+    {/* Trust Indicators */}
+    <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 sm:gap-10 mt-7 pt-10 border-t border-slate-300">
 
-          {/* Item */}
-          <div className="flex flex-col">
-            <div className="flex items-center gap-2">
-              <Timer className="w-4 h-4 text-orange-600" />
-              <span className="text-sm sm:text-lg font-bold text-foreground"><span className="hidden">Under</span> 20min</span>
-
-            </div>
-            <span className="text-xs sm:text-sm text-muted-foreground">Response Time</span>
-          </div>
-
-          <div className="w-px h-8 bg-border hidden md:block" />
-
-          {/* Item */}
-          <div className="flex flex-col">
-            <div className="flex items-center gap-2">
-              <ShieldCheck className="w-4 h-4 text-orange-600" />
-              <span className="text-sm sm:text-lg font-bold text-foreground">98%</span>
-            </div>
-            <span className="text-xs sm:text-sm text-muted-foreground">Satisfaction</span>
-          </div>
-
+      {/* Item */}
+      <div className="flex flex-col">
+        <div className="flex items-center gap-2">
+          <Users className="w-4 h-4 text-orange-600" />
+          <span className="text-sm sm:text-lg font-bold text-foreground">500+</span>
         </div>
+        <span className="text-xs sm:text-sm text-muted-foreground">
+          Businesses Managed
+        </span>
+      </div>
 
+      <div className="w-px h-8 bg-border hidden md:block" />
 
+      {/* Item */}
+      <div className="flex flex-col">
+        <div className="flex items-center gap-2">
+          <ShieldCheck className="w-4 h-4 text-orange-600" />
+          <span className="text-sm sm:text-lg font-bold text-foreground">99.9%</span>
+        </div>
+        <span className="text-xs sm:text-sm text-muted-foreground">
+          Uptime Target
+        </span>
+      </div>
+
+      <div className="w-px h-8 bg-border hidden md:block" />
+
+      {/* Item — Demoted */}
+      <div className="flex flex-col opacity-60">
+        <div className="flex items-center gap-2">
+          <Timer className="w-4 h-4 text-orange-600" />
+          <span className="text-xs sm:text-sm font-medium text-foreground">
+            ~20 min
+          </span>
+        </div>
+        <span className="text-[10px] sm:text-xs text-muted-foreground">
+          Typical Response
+        </span>
+      </div>
+
+    </div>
 
 
 
@@ -116,8 +123,8 @@ const HeroSection = () => {
                     <span className="text-accent text-xl">✓</span>
                   </div>
                   <div>
-                    <div className="font-semibold text-foreground">Issue Resolved</div>
-                    <div className="text-sm text-muted-foreground">In 15 minutes</div>
+                    <div className="font-semibold text-foreground">Systems Monitored</div>
+                    <div className="text-sm text-muted-foreground">24/7</div>
                   </div>
                 </div>
               </div>

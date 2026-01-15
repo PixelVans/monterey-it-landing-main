@@ -12,39 +12,48 @@ import {
 const services = [
   {
     icon: Monitor,
-    title: "Computer Repair & Troubleshooting",
-    description: "Fast diagnosis and repair for all computer issues. Hardware failures, software problems, and performance optimization.",
+    title: "Endpoint Management & System Maintenance",
+    description:
+      "Ongoing management of workstations and systems to ensure stability, performance, and reliability. Issues are addressed proactively, not after productivity is lost.",
   },
   {
     icon: Server,
-    title: "Managed IT Support",
-    description: "Proactive monitoring and maintenance to prevent issues before they impact your business operations.",
+    title: "Managed IT Infrastructure",
+    description:
+      "Continuous monitoring, maintenance, and optimization of your core technology systems to prevent disruptions and support long-term business operations.",
   },
   {
     icon: Wifi,
     title: "Network Setup & Wi-Fi Optimization",
-    description: "Professional network installation and optimization for reliable, fast connectivity throughout your workspace.",
+    description:
+      "Professional network design, installation, and ongoing optimization to ensure reliable, secure connectivity across your workspace.",
   },
   {
     icon: HardDrive,
-    title: "Data Backup & Recovery",
-    description: "Automated backup solutions and expert data recovery services to protect your critical business data.",
+    title: "Data Backup & Continuity Planning",
+    description:
+      "Automated backup systems and disaster recovery planning to protect critical business data and ensure operational continuity.",
   },
   {
     icon: Shield,
-    title: "Cybersecurity & Protection",
-    description: "Comprehensive security solutions including antivirus, firewall setup, and threat monitoring.",
+    title: "Cybersecurity Strategy & Risk Mitigation",
+    description:
+      "Layered security strategy including endpoint protection, firewall management, monitoring, and risk mitigation tailored to small businesses.",
   },
   {
     icon: Laptop,
-    title: "Business Device Setup",
-    description: "Complete setup and configuration of laptops, desktops, and mobile devices for your team.",
+    title: "Device Lifecycle Management",
+    description:
+      "Standardized setup, configuration, management, and replacement planning for laptops, desktops, and mobile devices across your organization.",
   },
 ];
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-24 lg:py-32 bg-background relative overflow-hidden">
+    <section
+      id="services"
+      className="py-24 lg:py-32 bg-background relative overflow-hidden"
+    >
       {/* Background decorations */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-accent/5 rounded-full blur-3xl" />
@@ -59,7 +68,7 @@ const ServicesSection = () => {
             IT Services We Provide
           </h2>
           <p className="text-lg text-muted-foreground">
-            Fast, reliable, and built specifically for Monterey Bay businesses.
+            Proactive, managed technology systems for Monterey Bay businesses.
           </p>
         </div>
 
@@ -75,7 +84,7 @@ const ServicesSection = () => {
               <div className="w-12 h-12 rounded-xl bg-orange-900 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
                 <service.icon className="w-6 h-6 text-primary-foreground" />
               </div>
-              
+
               {/* Content */}
               <h3 className="text-lg font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
                 {service.title}
@@ -92,10 +101,16 @@ const ServicesSection = () => {
           ))}
         </div>
 
+        {/* Positioning Line */}
+        <p className="text-center max-w-2xl mx-auto mt-10 text-sm text-muted-foreground">
+          All services are delivered as part of a cohesive IT management strategy,
+          not one-off fixes.
+        </p>
+
         {/* CTA */}
         <div className="text-center mt-12">
           <Button variant="gradient" size="lg">
-            View Full Service List
+            View Managed IT Services
             <ArrowRight className="w-5 h-5" />
           </Button>
         </div>

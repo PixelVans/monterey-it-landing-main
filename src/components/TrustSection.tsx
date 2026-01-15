@@ -5,23 +5,26 @@ const trustFeatures = [
   {
     icon: BadgeDollarSign,
     title: "Transparent Pricing",
-    description: "No hidden fees or surprise charges. Clear estimates before we start any work.",
+    description:
+      "Clear scopes, defined service coverage, and predictable pricing with no hidden fees or surprises.",
   },
   {
     icon: Zap,
-    title: "Fast, Reliable Support",
-    description: "Same-day service for most issues. We understand that downtime costs money.",
+    title: "Proactive Monitoring & Response",
+    description:
+      "Continuous system monitoring with responsive, local expertise when needed. Issues are identified and addressed early—before they disrupt operations.",
   },
   {
     icon: CheckCircle,
-    title: "No-Fix, No-Fee Guarantee",
-    description: "If we can't solve your problem, you don't pay. It's that simple.",
+    title: "Long-Term Accountability",
+    description:
+      "We don’t disappear after a single fix. We take ongoing responsibility for the systems we manage, with a focus on stability, continuity, and trust.",
   },
 ];
 
 const TrustSection = () => {
   return (
-    <section id="trust" className="py-24 lg:py-32 bg-card relative overflow-hidden">
+    <section id="trust" className="py-24 bg-orange-50 lg:py-32 bg-card relative overflow-hidden">
       {/* Subtle gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
 
@@ -32,19 +35,23 @@ const TrustSection = () => {
             <div className="relative">
               {/* Decorative elements */}
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/10 to-accent/10 rounded-3xl blur-xl" />
-              
+
               <div className="relative rounded-3xl overflow-hidden shadow-elevated border border-border/50">
                 <img
                   src={supportImage}
-                  alt="IT support technician helping a business owner with computer issues"
+                  alt="IT systems management supporting a local business"
                   className="w-full h-auto object-cover"
                 />
               </div>
 
               {/* Stats card */}
               <div className="absolute -bottom-6 -right-6 bg-card rounded-2xl shadow-card p-6 border border-border/50">
-                <div className="text-3xl font-bold text-primary mb-1">15+ Years</div>
-                <div className="text-sm text-muted-foreground">Serving Monterey Bay</div>
+                <div className="text-3xl font-bold text-primary mb-1">
+                  15+ Years
+                </div>
+                <div className="text-sm text-muted-foreground">
+                  Managing Business Technology in Monterey Bay
+                </div>
               </div>
             </div>
           </div>
@@ -52,16 +59,18 @@ const TrustSection = () => {
           {/* Content Side */}
           <div className="order-1 lg:order-2">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
-              Why Trust Us
+              Why Businesses Trust MBITS
             </div>
-            
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              You're In{" "}
-              <span className="gradient-text">Good Hands</span>
+
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+              Experienced. Proactive. Accountable. 
             </h2>
-            
+
             <p className="text-lg text-muted-foreground mb-10">
-              We've built our reputation on honest service, fair pricing, and treating every client like a neighbor—because you are.
+              We’ve built our reputation on clear communication, predictable
+              pricing, and long-term relationships. Our goal is simple: manage
+              your technology so it supports your business quietly and reliably,
+              without constant intervention.
             </p>
 
             {/* Trust Features */}
