@@ -16,7 +16,7 @@ const ContactForm = () => {
       <input type="hidden" name="bot-field" />
 
       <div>
-        <label className="text-sm font-medium">Name</label>
+        <label className="text-sm font-medium">Name.</label>
         <input
           name="name"
           required
