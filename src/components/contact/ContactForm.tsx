@@ -1,13 +1,14 @@
 const ContactForm = () => {
   return (
     <form
-        name="contact"
-        method="POST"
-        action="/thanks"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        className="space-y-4 mt-20"
-      >
+      name="contact"
+      method="POST"
+      action="/contact-success"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      className="space-y-4 mt-20"
+    >
+
 
       <input type="hidden" name="form-name" value="contact" />
 
