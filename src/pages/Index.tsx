@@ -21,7 +21,7 @@ const Index = () => {
       <Header onContactClick={openContact} />
 
       <main>
-        <HeroSection />
+        <HeroSection onContactClick={openContact}/>
         <WhyChooseSection />
         <ServicesSection />
         <ServiceAreaSection />

@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
-import ContactDialog from "@/components/contact/ContactDialog";
+
 
 
 const Header = ({ onContactClick }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [contactOpen, setContactOpen] = useState(false);
+  
 
 
   return (

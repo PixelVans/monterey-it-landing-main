@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, ArrowRight, Timer, ShieldCheck, Users } from "lucide-react";
 import heroImage from "@/assets/hero-it.jpg";
 
-const HeroSection = () => {
+const HeroSection = ({ onContactClick }) => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Animated Background */}
@@ -34,64 +34,70 @@ const HeroSection = () => {
             
             
       <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-        <Button variant="hero" size="xl">
-          Request an IT Assessment
-        </Button>
+        <Button
+            variant="hero"
+            size="xl"
+            onClick={onContactClick}
+          >
+            Request an IT Assessment
+          </Button>
 
+
+        <a href="tel:+18315556248" className="relative z-20 inline-block">
         <Button variant="heroOutline" size="xl">
           Talk With an IT Advisor
           <ArrowRight className="w-5 h-5" />
         </Button>
+      </a>
+
       </div>
 
 
-    {/* Trust Indicators */}
-    <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 sm:gap-10 mt-7 pt-10 border-t border-slate-300">
+        {/* Trust Indicators */}
+        <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 sm:gap-10 mt-7 pt-10 border-t border-slate-300">
 
-      {/* Item */}
-      <div className="flex flex-col">
-        <div className="flex items-center gap-2">
-          <Users className="w-4 h-4 text-orange-600" />
-          <span className="text-sm sm:text-lg font-bold text-foreground">500+</span>
-        </div>
-        <span className="text-xs sm:text-sm text-muted-foreground">
-          Businesses Managed
-        </span>
-      </div>
-
-      <div className="w-px h-8 bg-border hidden md:block" />
-
-      {/* Item */}
-      <div className="flex flex-col">
-        <div className="flex items-center gap-2">
-          <ShieldCheck className="w-4 h-4 text-orange-600" />
-          <span className="text-sm sm:text-lg font-bold text-foreground">99.9%</span>
-        </div>
-        <span className="text-xs sm:text-sm text-muted-foreground">
-          Uptime Target
-        </span>
-      </div>
-
-      <div className="w-px h-8 bg-border hidden md:block" />
-
-      {/* Item — Demoted */}
-      <div className="flex flex-col opacity-60">
-        <div className="flex items-center gap-2">
-          <Timer className="w-4 h-4 text-orange-600" />
-          <span className="text-xs sm:text-sm font-medium text-foreground">
-            ~20 min
-          </span>
-        </div>
-        <span className="text-[10px] sm:text-xs text-muted-foreground">
-          Typical Response
-        </span>
-      </div>
-
-    </div>
-
-
-
+          {/* Item */}
+          <div className="flex flex-col">
+            <div className="flex items-center gap-2">
+              <Users className="w-4 h-4 text-orange-600" />
+              <span className="text-sm sm:text-lg font-bold text-foreground">500+</span>
+            </div>
+            <span className="text-xs sm:text-sm text-muted-foreground">
+              Businesses Managed
+            </span>
           </div>
+
+          <div className="w-px h-8 bg-border hidden md:block" />
+
+          {/* Item */}
+          <div className="flex flex-col">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-orange-600" />
+              <span className="text-sm sm:text-lg font-bold text-foreground">99.9%</span>
+            </div>
+            <span className="text-xs sm:text-sm text-muted-foreground">
+              Uptime Target
+            </span>
+          </div>
+
+          <div className="w-px h-8 bg-border hidden md:block" />
+
+          {/* Item — Demoted */}
+          <div className="flex flex-col opacity-60">
+            <div className="flex items-center gap-2">
+              <Timer className="w-4 h-4 text-orange-600" />
+              <span className="text-xs sm:text-sm font-medium text-foreground">
+                ~20 min
+              </span>
+            </div>
+            <span className="text-[10px] sm:text-xs text-muted-foreground">
+              Typical Response
+            </span>
+          </div>
+
+        </div>
+
+      </div>
 
           {/* Hero Image */}
           <div className="relative animate-slide-in-right">
