@@ -97,7 +97,7 @@ const HeroSection = () => {
           <div className="relative animate-slide-in-right">
             <div className="inline-flex w-full border-2 border-blue-300 items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-              Serving Monterey County Since 2010
+              Serving Monterey County Since 2017
             </div>
             <div className="relative">
               {/* Decorative elements */}

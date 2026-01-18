@@ -47,7 +47,7 @@ const TrustSection = () => {
               {/* Stats card */}
               <div className="absolute -bottom-6 -right-6 bg-card rounded-2xl shadow-card p-6 border border-border/50">
                 <div className="text-3xl font-bold text-primary mb-1">
-                  15+ Years
+                  8+ Years
                 </div>
                 <div className="text-sm text-muted-foreground">
                   Managing Business Technology in Monterey Bay

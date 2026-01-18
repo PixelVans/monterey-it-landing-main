@@ -1,9 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
+import ContactDialog from "@/components/contact/ContactDialog";
 
-const Header = () => {
+
+const Header = ({ onContactClick }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [contactOpen, setContactOpen] = useState(false);
+
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-md border-b border-border/50">
@@ -38,13 +42,18 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
+            <a href="tel:+18315556248">
             <Button variant="heroOutline" size="default">
               <Phone className="w-4 h-4" />
               Call Now
             </Button>
-            <Button variant="hero" size="default">
-              Get Help Now
-            </Button>
+          </a>
+
+          <Button variant="hero" size="default" onClick={onContactClick}>
+            Get Help Now
+          </Button>
+
+            
           </div>
 
           {/* Mobile Menu Button */}

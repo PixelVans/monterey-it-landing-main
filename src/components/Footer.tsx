@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, ArrowRight } from "lucide-react";
 
-const Footer = () => {
+const Footer = ({ onContactClick }) => {
   return (
     <footer className="bg-foreground text-background relative overflow-hidden">
       {/* CTA Section */}
@@ -21,10 +21,16 @@ const Footer = () => {
                 <Phone className="w-5 h-5" />
                 Call (831) 555-MBITS
               </Button>
-              <Button variant="heroOutline" size="xl" className="border-background/30 text-slate-900 hover:bg-background/10 hover:border-background/50 hover:text-accent-foreground">
+              <Button
+                variant="heroOutline"
+                size="xl"
+                onClick={onContactClick}
+                className="border-background/30 text-slate-900 hover:bg-background/10 hover:border-background/50 hover:text-accent-foreground"
+              >
                 Start Your Service Request
                 <ArrowRight className="w-5 h-5" />
               </Button>
+
             </div>
           </div>
         </div>
