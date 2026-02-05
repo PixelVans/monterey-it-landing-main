@@ -19,7 +19,7 @@ const Footer = ({ onContactClick }) => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="accent" size="xl">
                 <Phone className="w-5 h-5" />
-                Call (831) 555-MBITS
+                Call (831) 417-3101
               </Button>
               <Button
                 variant="heroOutline"
@@ -77,7 +77,7 @@ const Footer = ({ onContactClick }) => {
             <ul className="space-y-3 text-background/60">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-accent" />
-                (831) 555-MBITS
+                (831) 417-3101
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-accent" />

@@ -42,10 +42,10 @@ const Header = ({ onContactClick }) => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
-            <a href="tel:+18315556248">
+           <a href="tel:+18314173101">
             <Button variant="heroOutline" size="default">
               <Phone className="w-4 h-4" />
-              Call Now
+              Call Now (831) 417-3101
             </Button>
           </a>
 

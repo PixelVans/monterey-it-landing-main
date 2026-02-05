@@ -43,7 +43,7 @@ const HeroSection = ({ onContactClick }) => {
           </Button>
 
 
-        <a href="tel:+18315556248" className="relative z-20 inline-block">
+        <a href="tel:+18314173101" className="relative z-20 inline-block">
         <Button variant="heroOutline" size="xl">
           Talk With an IT Advisor
           <ArrowRight className="w-5 h-5" />
